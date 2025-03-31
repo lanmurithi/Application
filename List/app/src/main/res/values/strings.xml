@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">List</string>
+    <string name="enter_a_task">Enter a task</string>
+    <string name="list_of_tasks_to_view_and_manage">List of tasks to view and manage</string>
+    <string name="add_task">Add Task</string>
+    <string name="enter_a_tasks">Enter a task</string>
+    <string name="enter_a_tas">Enter a task</string>
+    <string name="task_name">Task Name</string>
+</resources>
