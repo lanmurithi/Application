@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTask"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/enter_a_tas"
+        android:padding="8dp"
+        android:background="@android:drawable/editbox_background" />
+
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/add_task" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewTasks"
+        android:layout_width="match_parent"
+        android:layout_height="495dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/list_of_tasks_to_view_and_manage"
+        android:padding="8dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTask"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/task_name"
+        android:padding="8dp" />
+
+</LinearLayout>
